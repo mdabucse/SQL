@@ -47,3 +47,5 @@ WHERE DATEDIFF(CURDATE(), order_date) > 30;
 SELECT order_id, order_date,
        DATE_ADD(order_date, INTERVAL 5 DAY) AS delivery_date
 FROM Orders;
+
+select * from employees;
